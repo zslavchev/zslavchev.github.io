@@ -65,6 +65,9 @@ h2,
 p {
   margin: 0;
 }
+h3 {
+  color: var(--first-color);
+}
 ul {
   margin: 0;
   padding: 0;
@@ -441,9 +444,12 @@ img {
     width: 300px;
   }
   .work_container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
     column-gap: 2rem;
+    row-gap: 8rem;
+    align-items: center;
+    text-align: center;
   }
   .contact_form {
     width: 360px;
@@ -462,4 +468,18 @@ img {
     right: 20%;
     bottom: 25%;
   }
+}
+
+.work-description {
+  text-align: center;
+}
+
+.work_social-icon {
+  width: max-content;
+  font-size: 1.5rem;
+  color: var(--second-color);
+}
+
+.work_social-icon:hover {
+  color: var(--first-color);
 }

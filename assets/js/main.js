@@ -52,6 +52,7 @@ sr.reveal('.skills_img', { delay: 600 });
 
 /* Scroll Work */
 sr.reveal('.work_img', { interval: 200 });
+sr.reveal('.work-description', { interval: 200 });
 
 /* Scroll Contact */
 sr.reveal('.contact_input', { interval: 200 });
