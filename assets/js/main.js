@@ -56,3 +56,9 @@ sr.reveal('.work-description', { interval: 200 });
 
 /* Scroll Contact */
 sr.reveal('.contact_input', { interval: 200 });
+
+/* Scroll to top upon refreshing page */
+history.scrollRestoration = "manual";
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+};
